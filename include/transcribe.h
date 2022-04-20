@@ -5,7 +5,6 @@
 #include <aws/s3/S3Client.h>
 #include <aws/s3/model/PutObjectRequest.h>
 #include <aws/core/auth/AWSCredentialsProviderChain.h>
-#include <aws/identity-management/auth/STSAssumeRoleCredentialsProvider.h>
 
 #include <aws/transcribe/TranscribeServiceClient.h>
 #include <aws/transcribe/model/StartTranscriptionJobRequest.h>
